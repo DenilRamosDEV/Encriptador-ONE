@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador || ONE</title>
+
+    <!-- style - css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./image/Logo.png" alt="logo de alura">
+    </header>
+    <main>
+        <section>
+            <textarea id="entrada" class="textarea" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="info">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button id="btn-e" class="btn-encriptar" onclick="imprimir()">encriptar</button>
+                <button id="btn-d" class="btn-desencriptar">desencriptar</button>
+            </div>
+        </section>
+        <section class="area-mensaje">
+            <textarea id="salida" class="msarea" cols="20" rows="10"></textarea>
+            <div>
+                <button id="btn-c" class="copy">copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
